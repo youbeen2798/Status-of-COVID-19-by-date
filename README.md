@@ -1,5 +1,6 @@
-# covid-19
-fetch, 공공 API 활용
+# 일자별 covid-19 현황 구하기
+
+- fetch, 공공 API 활용
 
 - 일자별 코로나 확진현황 구하기
   - 관련 API
