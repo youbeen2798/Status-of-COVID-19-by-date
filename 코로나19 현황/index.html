@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8" />
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  <!--기준일(생성일), 누적(확진자수), 누적(사망자수), 업데이트) -->
+  <h3>
+    <input type = "button" onclick = "minusclick()" value = "저번달"></input>
+    코로나 19 현황
+    <input type = "button" onclick = "plusclick()" value = "이번달"></input>
+  </h3>
+  <table>
+        <tr>
+            <th>기준일</th>
+            <th>누적(확진자수)</th>
+            <th>누적(사망자수)</th>
+            <th>update</th>
+        </tr>
+  </table>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <div style="width: 50vw; height: 30vh;" >
+    <canvas id="line-chart"></canvas>
+  </div>
+  <script src = "script.js"></script>
+</body>
+</html>
